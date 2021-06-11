@@ -15,7 +15,7 @@ const App=()=>{
       <Stack.Screen name="HomeScreen" component={HomeScreen} options={{ headerShown: false }}/>
             <Stack.Screen name="CameraScreen" component={CameraScreen}
             options={{
-                headerShown: true,
+                headerShown: false,
                  headerTintColor: '#fff',
                  
                }} 
